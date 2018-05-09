@@ -1,0 +1,44 @@
+{
+  "name": "in-the-wash",
+  "version": "0.0.0",
+  "description": "Light design web app",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "babel-node ./src/spec/support/run.js",
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronRhodebeck/in-the-wash.git"
+  },
+  "author": "aaronRhodebeck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronRhodebeck/in-the-wash/issues"
+  },
+  "homepage": "https://github.com/aaronRhodebeck/in-the-wash#readme",
+  "dependencies": {
+    "d3": "^5.3.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "jasmine": "^3.1.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "react-faux-dom": "^4.1.0",
+    "webpack": "^4.7.0",
+    "webpack-cli": "^2.1.2",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
