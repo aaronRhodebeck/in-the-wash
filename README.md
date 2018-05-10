@@ -8,4 +8,4 @@ A basic light design web app for theater and concert light designers to have bas
 
 ## License
 
-This project is under the MIT License - read the [License](LICENSE.md) for details
+This project is under the MIT License - read the [License](./LICENSE.md) for details
